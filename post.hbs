@@ -1,0 +1,60 @@
+{{!< default}}
+{{#post}}
+	<div id="intro-pic">
+        <hgroup>
+            <h2><span>{{{title}}}</span></h2>
+        </hgroup>
+        <figure class="full-stretch" data-stretch="{{image}}">
+        </figure>
+    </div>
+    
+    <section id="main" class="container" role="main">
+        <article id="post-content" class="col-md-offset-2 col-md-8 clearfix">
+        	<p><small>in <a href="{{url}}">{{#tags}}{{name}}{{/tags}}</a></small></p>
+            {{content}}
+        </article>
+        <section class="clearfix col-md-offset-2 col-md-8 clearfix" id="socialshare"> 
+            <hr/>
+                <section>
+                    <div>
+                        <span id="twitter">0</span><a href="http://twitter.com/share?text={{title}}&url={{url absolute="true"}}" target="_blank" class="twitter">tweet</a>
+                    </div>
+                    <div>
+                        <span id="facebook">0</span><a href="https://www.facebook.com/sharer/sharer.php?u={{url absolute="true"}}" target="_blank" class="facebook">like</a>
+                    </div>
+                    <div>
+                        <span id="google">0</span><a href="https://plus.google.com/share?url={{url absolute="true"}}" target="_blank" class="google">+1</a>
+                    </div>
+                </section>
+            <hr/>
+        </section>
+        <section id="author" role="author" class="clearfix col-md-offset-2 col-md-8">
+            <figure class="col-md-3 col-xs-3 col-sm-3 push-left">
+                <img src="{{author.image}}" alt="{{author.bio}}" title="{{author.bio}}" />
+            </figure>
+            <article class="col-md-9 col-xs-9 col-md-sm pull-right">
+                <h4>{{author.name}}</h4>
+                <p>{{author.bio}}</p>
+            </article>
+        </section>
+
+        <section class="clearfix col-md-offset-2 col-md-8">
+	        <hr/>
+	        <div id="disqus_thread"></div>
+			<script type="text/javascript">
+			    var disqus_shortname = 'cehghost'; // required: replace example with your forum shortname
+			    var disqus_identifier = '{{post.id}}';
+
+			    /* * * DON'T EDIT BELOW THIS LINE * * */
+			    (function() {
+			        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+			        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+			        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+			    })();
+			</script>
+			<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+		</section>
+
+	</section>
+
+{{/post}}

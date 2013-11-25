@@ -1,0 +1,9 @@
+        <ul id="list-nav" class="clearfix" role="pagination">
+        	{{#if prev}}
+            	<li><a href="{{pageUrl prev}}"><span class="glyphicon glyphicon-chevron-left"></span> newer posts</a></li>
+            {{/if}}
+            <li>{{page}}/{{pages}}</li>
+            {{#if next}}
+            	<li><a href="{{pageUrl next}}">older posts <span class="glyphicon glyphicon-chevron-right"></span></a></li>
+            {{/if}}
+        </ul>

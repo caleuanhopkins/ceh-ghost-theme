@@ -1,0 +1,34 @@
+{{!< default}}
+
+ 
+    <div id="intro-pic">
+        <hgroup>
+            <h2><span>{{@blog.title}}</span></h2>
+            <h4><span>{{@blog.description}}</span></h4>
+        </hgroup>
+        <figure class="full-stretch" data-stretch="{{@blog.cover}}"></figure>
+    </div>
+    
+    <section id="main" class="container" role="main">
+        <ul id="the-posts" class="clearfix">
+            {{#foreach posts}}
+                <li>
+                    <section id="imagery" class="col-xs-0 col-sm-12 col-md-6 {{#if @even}}pull-right{{/if}} gutterless">
+                        <figure>
+                            <div class="trans"></div>
+                            <div class="center">
+                                <a href="{{url}}">click to read post</a>
+                            </div>
+                            <img src="{{image}}" class="img-responsive" alt="{{excerpt}}" title="{{excerpt}}" />
+                        </figure>
+                    </section>
+                    <article class="col-xs-12 col-sm-12 col-md-6 {{#if @even}}pull-left{{/if}} gutterless">
+                        <h3>{{{title}}}</h3>
+                        <p>{{excerpt}}</p>
+                        <a href="{{url}}" class="read-more"><span class="glyphicon glyphicon-circle-arrow-right"></span>&nbsp;read this post</a>
+                    </article>
+                </li>
+            {{/foreach}}
+        </ul>
+        {{pagination}}
+    </section>
