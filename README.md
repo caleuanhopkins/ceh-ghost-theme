@@ -1,5 +1,4 @@
 # CEH - A Ghost Theme
-===============
 
 CEH is a theme create by Callum Euan Hopkins (@caleuanhopkins) and was created for personal purposes only. All are welcomed to used.
 
