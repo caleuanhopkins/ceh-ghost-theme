@@ -549,6 +549,10 @@ footer a:link, footer a:visited {
   #list-nav {
     margin:0 0;
   }
+
+  #intro-pic h2, #intro-pic h4 {
+    border:none;
+  }
 }
 
 @media (min-width: 750px) and (max-width: 970px) {
