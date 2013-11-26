@@ -380,6 +380,19 @@ footer a:link, footer a:visited {
   padding:10px;
 }
 
+.post article h1 {
+  line-height: 1.25em;
+  margin-bottom: 40px;
+}
+
+.post article p {
+  margin-bottom: 50px;
+}
+
+.post article p:first-child {
+  margin-bottom:0;
+}
+
 .post hr {
   border-color:#bdc3c7;
   border-width:2px 0 0;
