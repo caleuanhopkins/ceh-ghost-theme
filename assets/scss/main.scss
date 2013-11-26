@@ -542,9 +542,13 @@ footer a:link, footer a:visited {
   padding-bottom:80px;
 }
 
-@media (max-width: 300px) {
+@media (max-width: 420px) {
   #intro-pic h2 span {
     border:none;
+  }
+
+  #intro-pic h2 {
+    text-align:center;
   }
 }
 
