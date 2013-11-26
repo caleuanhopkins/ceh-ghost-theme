@@ -99,15 +99,18 @@ header .dropdown .dropdown-menu a:hover {
     z-index:2;
 }
 
-#intro-pic h2, #intro-pic h4 {
+#intro-pic h2 {
     text-transform:uppercase;
     font-family:Oswald;
     font-weight:400;
     font-size:3em;
     text-align:center;
     margin:125px auto 0;
-    max-width:440px;
     position:relative;
+}
+
+.home-template #intro-pic h4 {
+  max-width:440px;
 }
 
 #intro-pic 
