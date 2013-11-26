@@ -542,16 +542,18 @@ footer a:link, footer a:visited {
   padding-bottom:80px;
 }
 
+@media (max-width: 300px) {
+  #intro-pic h2 span {
+    border:none;
+  }
+}
+
 @media (max-width: 767px) {
   #the-posts #imagery {
     display:none;
   }
   #list-nav {
     margin:0 0;
-  }
-
-  #intro-pic h2, #intro-pic h4 {
-    border:none;
   }
 }
 
