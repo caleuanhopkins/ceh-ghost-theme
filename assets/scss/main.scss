@@ -315,28 +315,28 @@ footer a:link, footer a:visited {
   color:#bdc3c7;
 }
 
-.post #intro-pic h2 {
+.post-template #intro-pic h2 {
   margin-top:140px;
 }
 
-.post article#post-content {
+.post-template article#post-content {
   margin-top:40px;
   font-size:1.467em;
   line-height:2.133em;
   font-family:Merriweather;
 }
 
-.post article#post-content p small {
+.post-template article#post-content p small {
   font-family:Merriweather;
   font-size:0.933em;
 }
 
-.post article#post-content p small a:link, .post article#post-content p small a:visited {
+.post-template article#post-content p small a:link, .post-template article#post-content p small a:visited {
   font-style:italic;
   color:#95a5a6;
 }
 
-.post article#post-content h1 {
+.post-template article#post-content h1 {
   margin-top:30px;
   font-size:2.400em;
   font-style:italic;
@@ -344,30 +344,30 @@ footer a:link, footer a:visited {
   font-family:Merriweather;
 }
 
-.post article#post-content blockquote {
+.post-template article#post-content blockquote {
   margin:40px 0;
   background:#34495e;
   border-left:10px solid #bdc3c7;
 }
 
-.post article#post-content blockquote em {
+.post-template article#post-content blockquote em {
   font-weight:400;
   font-size:0.8em;
 }
 
-.post article#post-content h3, .post article#post-content h2, .post article#post-content h4 {
+.post-template article#post-content h3, .post-template article#post-content h2, .post-template article#post-content h4 {
   padding:25px 0;
   text-decoration:underline;
   font-family:Merriweather;
   font-weight:700;
 }
 
-.post article#post-content img {
+.post-template article#post-content img {
   padding:35px 0;
   width:100%;
 }
 
-.post article#post-content code {
+.post-template article#post-content code {
   background:#34495e;
   padding:10px;
   color:#fff;
@@ -380,20 +380,20 @@ footer a:link, footer a:visited {
   padding:10px;
 }
 
-.post article h1 {
+.post-template article h1 {
   line-height: 1.25em;
   margin-bottom: 40px;
 }
 
-.post article p {
-  margin-bottom: 50px;
+.post-template article p {
+  margin-bottom: 30px;
 }
 
-.post article p:first-child {
+.post-template article p:first-child {
   margin-bottom:0;
 }
 
-.post hr {
+.post-template hr {
   border-color:#bdc3c7;
   border-width:2px 0 0;
   clear:both;
@@ -538,7 +538,7 @@ footer a:link, footer a:visited {
   clear:both;
 }
 
-.post #main {
+.post-template #main {
   padding-bottom:80px;
 }
 
@@ -570,7 +570,7 @@ footer a:link, footer a:visited {
   #list-nav {
     margin:60px 0;
   }
-  .post #main {
+  .post-template #main {
     padding-bottom:0;
   }
 }
