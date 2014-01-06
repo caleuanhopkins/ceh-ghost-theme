@@ -12,6 +12,7 @@ var framework = {
 			$("#facebook").text(data.Facebook.like_count);
 			$("#google").text(data.GooglePlusOne);
 		});
+		$('video').fitVids();
 	}
 };
 
