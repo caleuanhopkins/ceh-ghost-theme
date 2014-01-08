@@ -2,6 +2,7 @@ window.log=function(){log.history=log.history||[];log.history.push(arguments);if
 
 document.write(unescape('%3Cscript src="/assets/js/lib/jquery.anystretch.min.js"%3E%3C/script%3E'));
 document.write(unescape('%3Cscript src="/assets/js/lib/jquery.sharedcount.js"%3E%3C/script%3E'));
+document.write(unescape('%3Cscript src="/assets/js/lib/jquery.fitvids.js"%3E%3C/script%3E'));
 
 var framework = {
 
