@@ -350,6 +350,14 @@ footer a:link, footer a:visited {
   border-left:10px solid #bdc3c7;
 }
 
+.post-template article#post-content blockquote p {
+  line-height: 2em;
+}
+
+.post-template article#post-content blockquote strong {
+  display:block;
+}
+
 .post-template article#post-content blockquote em {
   font-weight:400;
   font-size:0.8em;
@@ -540,6 +548,17 @@ footer a:link, footer a:visited {
 
 .post-template #main {
   padding-bottom:80px;
+}
+
+pre {
+  border-radius: 4px;
+  color: #333333;
+  display: block;
+  font-size: 15px;
+  line-height: 2;
+  margin: 0 0 10px;
+  word-break: break-all;
+  word-wrap: break-word;
 }
 
 @media (max-width: 420px) {
